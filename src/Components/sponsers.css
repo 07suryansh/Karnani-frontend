@@ -1,0 +1,11 @@
+.sponsers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 90px;
+    gap: 50px;
+}
+.sponser-img{
+    width: 200px;
+}

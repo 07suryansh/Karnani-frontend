@@ -6,6 +6,7 @@ import Introduction from './Components/Introduction';
 import Referral from './Components/Referral';
 import Socials from './Components/Socials';
 import SpecialOffers from './Components/SpecialOffers';
+import Sponsers from './Components/Sponsers';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <BookingProcess/>
       <Referral/>
       <Socials/>
+      <Sponsers/>
     </div>
   );
 }
