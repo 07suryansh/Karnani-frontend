@@ -96,6 +96,7 @@ export default function CityCover() {
           />
         </div>
       </div>
+      <button className="city-btn btn" style={{padding:"14px 30px"}}>EXPLORE MORE</button>
     </div>
   );
 }

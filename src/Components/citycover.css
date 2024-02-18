@@ -69,3 +69,7 @@
     transform: scale(0.95);
     transition: transform 0.2s ease-in-out;
 }
+.city-btn{
+    margin-top: 900px;
+    margin-bottom: 100px;
+}
