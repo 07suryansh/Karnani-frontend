@@ -1,0 +1,71 @@
+.city-cover-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.city-page-head{
+    color: #064457;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.city-container{
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin: 2px 8px;
+}
+.city-images{
+    width: 80%;
+    height: 260px;
+    position: relative;
+    margin: 2px 8px;
+    transition: transform 0.2s ease-in-out;
+}
+/* .first-row{
+    display: flex;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    row-gap: 1.25rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+} */
+.first-row,.second-row,.third-row,.fourth-row{
+    display: flex;
+    padding: 0 1rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+.imgs{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+    color: transparent;
+    border-radius: 10px;
+}
+.city-name{
+    cursor: pointer;
+    border: none;
+        position: absolute; 
+        bottom: 0;
+        left: 0;
+        margin: 1rem; /* Adjust the value based on your design */ 
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #000000;
+        opacity: 0.8;
+        backdrop-filter: blur(8px); /* Adjust the blur radius based on your design */
+        color: #ffffff;
+        font-weight: 600;
+        border-radius: 0.5rem; /* Adjust the border-radius based on your design */
+}
+.city-images:hover{
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+}

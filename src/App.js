@@ -1,4 +1,5 @@
 import './App.css';
+import CityCover from './Components/CityCover';
 import Introduction from './Components/Introduction';
 import SpecialOffers from './Components/SpecialOffers';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Introduction/>
       <SpecialOffers/>
+      <CityCover/>
     </div>
   );
 }
