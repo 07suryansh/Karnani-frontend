@@ -4,6 +4,7 @@ import BookingProcess from './Components/BookingProcess';
 import CityCover from './Components/CityCover';
 import Introduction from './Components/Introduction';
 import Referral from './Components/Referral';
+import Socials from './Components/Socials';
 import SpecialOffers from './Components/SpecialOffers';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <BookingProcess/>
       <Referral/>
+      <Socials/>
     </div>
   );
 }
