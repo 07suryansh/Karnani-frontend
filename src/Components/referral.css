@@ -1,0 +1,52 @@
+.referral-page{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.referral-content{
+    width: 80%;
+    background-color: #184EAA;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.referral-left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.black-btn{
+    font-size: 18px;
+    font-weight: 900;
+    width: 140px;
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.big-head{
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+.small-head{
+    color: white;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+.small-head>p{
+    margin: 4px 0px;
+}
+.meet-pic{
+    width: 530px;
+    height: 353px;
+    align-self: flex-end;
+    border-radius: 10px;
+}
