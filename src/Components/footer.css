@@ -21,6 +21,7 @@
     align-items: center;
     justify-content:center;
     width: 100%;
+    gap: 100px;
 }
 .col{
     display: flex;
@@ -47,4 +48,30 @@ span{
 .footer-second,.footer-third{
     width: 10%;
     margin: 0px 80px;
+}
+.footer-second{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.f-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+li>a{
+    color: white;
+    text-decoration: none;
 }

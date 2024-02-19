@@ -5,6 +5,10 @@ import message from '../assets/message.webp'
 import fphone from '../assets/fphone.svg'
 import fwhatsapp from '../assets/fwhatsapp.svg'
 import flocation from '../assets/flocation.svg'
+import finsta from '../assets/finsta.svg'
+import flinkedin from '../assets/flinkedin.svg'
+import futube from '../assets/futube.svg'
+import ffb from '../assets/ffb.svg'
 
 export default function Footer() {
   return (
@@ -20,7 +24,7 @@ export default function Footer() {
             <span><img src={flocation} alt="" className="ficon"/>Househat UK Limited, The Oxford Science Park, Robert Robinson Ave, Littlemore, Oxford, OX4 4GP.</span>
         </div>
         <div className="footer-second col">
-            Contact Us
+            <span>Contact Us</span>
             <span>Refer a Friend</span>
             <span>List with us</span>
             <span>Cancellation Policy</span>
@@ -31,7 +35,14 @@ export default function Footer() {
             <span>T&C</span>
         </div>
         <div className="footer-third col">
-            Follow us on
+            <span style={{fontWeight:"700",fontSize:"1.25rem"}}>Follow us on</span>
+          <ul className="f-ul">
+            <li><img src={finsta} alt="" className="ficon"/><a href="https://www.instagram.com/thekarnani/">Instagram</a></li>
+            <li><img src={flinkedin} alt="" className="ficon"/><a href="https://www.linkedin.com/company/karnani/">LinkedIn</a></li>
+            <li><img src={futube} alt="" className="ficon"/><a href="https://www.youtube.com/@househataccommodations">YouTube</a></li>
+            <li><img src={ffb} alt="" className="ficon"/><a href="https://www.facebook.com/thekarnani">Facebook</a></li>
+            
+          </ul>
         </div>
       </div>
       <div className="footer-head">
