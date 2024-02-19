@@ -3,6 +3,8 @@ import logo from "../assets/logo.webp";
 import "./introduction.css";
 import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
+import fphone from '../assets/fphone.svg'
+import fwhatsapp from '../assets/fwhatsapp.svg'
 
 export default function Introduction() {
   return (
@@ -14,14 +16,8 @@ export default function Introduction() {
         <div className="nav-right">
           <button className="nav-btn btn">Get in touch !</button>
           <div className="intro-icons">
-            <FaPhoneAlt
-              className="intro-icon"
-              style={{ width: "20px", height: "20px" }}
-            />
-            <FaWhatsapp
-              className="intro-icon"
-              style={{ width: "25px", height: "25px" }}
-            />
+          <img src={fphone} alt="" className="intro-icon"/>
+          <img src={fwhatsapp} alt="" className="intro-icon"/>
           </div>
         </div>
       </div>
