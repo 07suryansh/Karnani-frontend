@@ -8,6 +8,12 @@
     color: white;
     font-weight: 500;
 }
+.col>span,.col>img{
+    cursor: pointer;
+}
+li>a:hover{
+    text-decoration: underline;
+}
 .footer-head{
     font-size: 1.2rem;
     color: white;
@@ -54,6 +60,14 @@ span{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.footer-second>span{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.footer-second>span:hover{
+    transform: translateX(-4px) scale(1.1);
+    transition: transform 0.2s ease-in-out;
 }
 .f-ul{
     display: flex;

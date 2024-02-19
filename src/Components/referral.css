@@ -29,6 +29,12 @@
     border: none;
     background-color: black;
     color: white;
+    transition: transform 0.25s ease-in-out;
+}
+.black-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.25s ease-in-out;
 }
 .big-head{
     font-size: 40px;
