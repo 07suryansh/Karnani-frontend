@@ -2,6 +2,7 @@ import './App.css';
 import About from './Components/About';
 import BookingProcess from './Components/BookingProcess';
 import CityCover from './Components/CityCover';
+import Footer from './Components/Footer';
 import Introduction from './Components/Introduction';
 import Referral from './Components/Referral';
 import Socials from './Components/Socials';
@@ -19,6 +20,7 @@ function App() {
       <Referral/>
       <Socials/>
       <Sponsers/>
+      <Footer/>
     </div>
   );
 }
